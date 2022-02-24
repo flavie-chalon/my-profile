@@ -1,4 +1,4 @@
-/* COLORS AND FONTS */
+
 body {
    background-color: rgb(220, 220, 220);
    color:  rgb(20, 20, 20);
@@ -31,13 +31,6 @@ a: hover {
 
 }
 
-#logo {
-	size: 10px;
-	width: 200px;
-
-}
-
-/* Custom design with class*/
 
 .container {
 	width: 700px;
@@ -96,7 +89,7 @@ a: hover {
 }
 
 
-/* design adjustments using (1% design remaining) */
+
 #introduction p{
 	margin-bottom: 40px;
 }
