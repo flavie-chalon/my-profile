@@ -31,6 +31,11 @@ a: hover {
 
 }
 
+#logo {
+	size: 10px;
+	width: 200px;
+
+}
 
 .container {
 	width: 700px;
