@@ -1,0 +1,101 @@
+/* COLORS AND FONTS */
+body {
+   background-color: rgb(220, 220, 220);
+   color:  rgb(20, 20, 20);
+   font-family: Gideon Roman;
+}
+h1, h2, h3 {
+	font-family: Gideon Roman;
+}
+h1 {
+	color: purple;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+h2 {
+	color: darkgreen;
+	font-size: 20px;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	color: green;
+	transition: color 0,3s ease;
+}
+a: hover {
+	color: darkred;
+	text-transform: lowercase;
+
+}
+
+#logo {
+	size: 10px;
+	width: 200px;
+
+}
+
+/* Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 20px auto;
+}
+
+@media (max-width:  500px){
+	.container{
+	width: 400px;	}
+}
+
+
+@media (max-width:  760px){
+	.container{
+	width: 600px;	}
+}
+
+
+.card-white { 
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-red {
+	background-color: darkred;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 40px;
+}
+.btn-red hover {
+	background-color: white;
+	color: black;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+
+}
+.list-inline i:hover{
+	color: rgb(20, 20, 20);
+	font-size: 30px;
+}
+
+
+/* design adjustments using (1% design remaining) */
+#introduction p{
+	margin-bottom: 40px;
+}
